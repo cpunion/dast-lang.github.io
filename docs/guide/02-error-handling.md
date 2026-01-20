@@ -11,7 +11,7 @@
 
 ## 核心类型
 
-### Result<T, E>
+### `Result<T, E>`
 
 ```dast
 enum Result<T, E> {
@@ -27,7 +27,7 @@ fn divide(a: i32, b: i32) -> Result<i32, String> {
 }
 ```
 
-### Option<T>
+### `Option<T>`
 
 ```dast
 enum Option<T> {
