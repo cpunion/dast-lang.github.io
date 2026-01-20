@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+    base: '/dast-lang.github.io/',
     title: "Dast Language",
     description: "A pragmatic, type-safe programming language for modern development.",
     head: [
